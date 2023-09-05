@@ -3,8 +3,8 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <Flex as="nav" p="10px" alignItems="center">
-      <Heading as="h1" >Nana's Task</Heading>
+    <Flex as="nav" p="10px" alignItems="center"mb="40px">
+      <Heading as="h1" color="purple" >Nana's Task</Heading>
       <Spacer/>
       <HStack spacing="20px">
       <Box bg="gray.200" p="10px">Avatar</Box>
