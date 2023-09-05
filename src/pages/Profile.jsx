@@ -9,7 +9,7 @@ import {
 
 export default function Profile() {
 	return (
-		<Tabs mt='40px' p='20px' colorScheme="purple" variant="enclosed" bg="darkblue">
+		<Tabs mt='40px' p='20px' colorScheme="purple" variant="enclosed" bg="purple.800">
 			<TabList>
 				<Tab _selected={{color:"white", bg:"purple.400"}}>Account Info</Tab>
 				<Tab _selected={{color:"white", bg:"purple.400"}}>Task History</Tab>
