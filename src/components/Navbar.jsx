@@ -1,5 +1,6 @@
 import { Avatar, AvatarBadge, Box, Button, Flex, HStack, Heading, Spacer, Text, useToast } from '@chakra-ui/react'
 import React from 'react'
+import ToggleColorMode from './ToggleColorMode'
 
 function Navbar() {
   const toast= useToast()
@@ -26,7 +27,8 @@ function Navbar() {
         </Avatar>  
       <Text color="purple.800">Johndoe@nana.com</Text>
       <Button colorScheme="purple" onClick={showToast}>Logout</Button>
-       </HStack>
+     </HStack>
+     <ToggleColorMode/>
     </Flex>
 
 
